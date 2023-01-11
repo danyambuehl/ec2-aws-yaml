@@ -1,20 +1,27 @@
 ![M300-Banner](00_images/banner.png)
 
-# Titel
+# IaaS (Infrastructure as a Service)
 
 
-## Beschreibung des Services
-Hier wird das Ziel und der Inhalt der Seite beschrieben
+## Infrastructure as a Service
+Das Ziel ist möglichst viel zu Automatisieren, vom Git Repository bis zum erstellen eines einfache Webserver mit AWS CloudFormation.
 
-- **Ziel 1 :** Beschriebung Ziel 
-- **Ziel 2 :** Beschriebung Ziel 
-- **Ziel 3 :** Beschriebung Ziel 
-    - **Unter Ziel 1 :** (IoE:) Beschriebung Ziel 
-    - **Unter Ziel 2 :** (IoE:) Beschriebung Ziel 
-    - **AWS Cloud :** (IoE:) Beschriebung Ziel 
+- **Git Repository :** Ein Scirpt erstellen das Automatisch ein Git Repository erstellt 
+    - **Template Folder:** Falls gewünscht wird eine Template Strucktur erstellt
+    - **Remote Repository** Erstellt eines Remote Repostiory 
+    - **Lokalen Repository** Erstellt ein lokales Repostiory 
+    - **Global Git Ignore** Erstellt ein .gitignore mit Einträgen 
+    - **Git Add** Fügt alle Files hinzu
+    - **Git commit** Macht einen ersten Commit
+    - **Log File** Erstellt ein Logfile mit Einträgen 
+    - **Doku** Script ist ausführlich mit Kommentaren Dokumentiert
+- **AWS CloudFormation:** Beschriebung Ziel 
+    - **EC2** Erstellt ein EC2 Instance via IaaS
+    - **Web Server** Konfiguriert diesen als WebServer 
+    - **HTML File** Sync HTML File von Git Repo  
 
 ## grobe Architektur
- ![Zeichnung](00_images/zeichnung.png)
+ ![Zeichnung](00_images/zeichnung_gross.png)
 
 ## Abschluss
 - Ein erfolgreicher Abschluss dieses Kurses oder entsprechende nachgewiesene Kompetenzen sind für den Einstieg in den Lehrgang dipl. Techniker/in HF Informatik erforderlich.
