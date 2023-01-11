@@ -16,6 +16,11 @@ Das Ziel ist es ein Script zu erstellen das folgende Punkte abdeckt:
 
 ## Voraussetzungen 
 
+•	To push with SSH, you must have an SSH key that is added to your GitLab account.
+•	You must have permission to add new projects to a namespace. To check if you have permission:
+1.	On the top bar, select Main menu > Groups and find your group.
+2.	Confirm that New project is visible in the upper right corner. Contact your GitLab administrator if you require permission.
+
 
 ## Vorgehen 
 Es wird das git_remote.sh Script auf einem Lokalen Verzeichniss benötigt.  
@@ -124,7 +129,7 @@ echo "The created repo is available at following link:"
 echo "https://gitlab.com/$username/$repo_name"
   
 ```
-
+Teilquelle: https://github.com/volym3ad/gitlab-repo-create
 ---
 
 > [⇧ **Zurück zur Hauptseite**](/README.md)
