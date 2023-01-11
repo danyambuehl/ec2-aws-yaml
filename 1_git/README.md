@@ -27,7 +27,8 @@ Es wird ein neuer Ordner mit dem ProjectNamen erstellt im Verzeichnis wo das Scr
 ## git_remote.sh Script
 
 - Hier das Erstellte Script mit Kommentaren
-   ```
+```
+
    #!/bin/bash
 
 username=$1
@@ -119,8 +120,8 @@ echo " done."
 echo ""
 echo "The created repo is available at following link:"
 echo "https://gitlab.com/$username/$repo_name"
-   ```
-
+  
+```
 
 ---
 
