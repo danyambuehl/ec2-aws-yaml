@@ -20,7 +20,7 @@ Das Ziel ist es ein Script zu erstellen das folgende Punkte abdeckt:
 ## Vorgehen 
 Es wird das git_remote.sh Script auf einem Lokalen Verzeichniss benötigt.  
 Im gleichen Verzeichniss muss sich auch der Folder "folder_structure_template" befinden.  
-Man startet Git Bash und startet das Script mit ./git_remote.sh {GitlabBenutzer} {ProjectName}  
+Man startet Git Bash und startet das Script mit `./git_remote.sh {GitlabBenutzer} {ProjectName}`  
 ```
 ./git_remote.sh daniel.ambuehl lazyaws
 ```  
