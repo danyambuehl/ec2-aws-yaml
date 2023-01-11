@@ -14,8 +14,17 @@ Das Ziel ist es ein Script zu erstellen das folgende Punkte abdeckt:
  - Logfile wird nachgeführt 
  - Script ist ausführlich mit Kommentaren Dokumentiert
 
+## Voraussetzungen 
+
+
+## Vorgehen 
+Es wird das git_remote.sh Script auf einem Lokalen Verzeichniss benötigt.
+Im gleichen Verzeichniss muss sich auch der Folder "folder_structure_template" befinden.
+Man startet Git Bash und startet das Script mit ./git_remote.sh {GitlabBenutzer} {ProjectName}
+z.b `./git_remote.sh daniel.ambuehl lazyaws`
+Es wird ein neuer Ordner mit dem ProjectNamen erstellt im Verzeichnis wo das Script ausgeführt wurde, der rest sollte selbserklärend sein.
+
 ## git_remote.sh Script
-- Beschreibung
 
 - Hier das Erstellte Script mit Kommentaren
    ```
