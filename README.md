@@ -2,8 +2,6 @@
 
 # IaaS (Infrastructure as a Service)
 
-
-## Infrastructure as a Service
 Das Ziel ist möglichst viel zu Automatisieren, vom Git Repository bis zum erstellen eines einfache Webserver mit AWS CloudFormation.
 
 - **Git Repository :** Ein Scirpt erstellen das Automatisch ein Git Repository erstellt 
@@ -20,14 +18,10 @@ Das Ziel ist möglichst viel zu Automatisieren, vom Git Repository bis zum erste
     - **Web Server** Konfiguriert diesen als WebServer 
     - **HTML File** Sync HTML File von Git Repo  
 
-## grobe Architektur
- ![Zeichnung](00_images/zeichnung_gross.png)
+## Architektur Übersicht
+ ![Zeichnung](00_images/zeichnung.png)
 
-## Abschluss
-- Ein erfolgreicher Abschluss dieses Kurses oder entsprechende nachgewiesene Kompetenzen sind für den Einstieg in den Lehrgang dipl. Techniker/in HF Informatik erforderlich.
-- Anerkannter Abschluss des Moduls 300 (wird von ICT Berufsbildung Schweiz im Portfolio bestätigt)
-
-## Topics
+## Detail Dokumentation
 
 - [**Umsetzung Git**](1_git/README.md)
 
