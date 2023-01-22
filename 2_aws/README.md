@@ -63,7 +63,9 @@ Identity and Access Management (IAM) ein User mit Admin rechten erstellen
 
 ---
 
-web: [`Weblnk`](https://www.linkl.com),
+web: [`yaml File`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html),
+web: [`yaml Template`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-sample-templates.html),
+web: [`Provisioning`](https://jennapederson.com/blog/2021/6/21/provisioning-an-ec2-instance-with-cloudformation-part-1/),
 ---
 
 > [⇧ **Zurück zur Hauptseite**](/README.md)
