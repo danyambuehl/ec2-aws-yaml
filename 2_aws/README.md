@@ -5,32 +5,67 @@ Titel
 
 Beschreibung des Ziel
 
-# Übersicht Tabelle 
+# Voraussetzung
 
-| Überschrift1 | Überschrift2 |
-| ---     | ---   |
-| `Befehl`| Beschreibung |
-| `Bfehel2`| Beschreibung2 |
+Identity and Access Management (IAM) ein User mit Admin rechten erstellen
+ 
+ Go To the User und unter "Security Credentionals" clicke auf den Button "Create access key"
 
-## Titel2
+ Wähle CLI aus und erstelle einen neuen Access Key. 
+
+ Speichere den Access Key und den Secret Access Key ab.
+
+# AWS Command Line Interface
+
   
-  **Auflistung und smile :+1:**
+  **AWS Command Line Interface download and install **
   
-  > `$ Befehl`
+  **CMD Öffnen und Version überprüfen**
+  
+  > `$ aws --version`
 
-## Titel1
-- Beschreibung
+![CLI Version](00images/aws_cli.png)
 
-- Beschreibung 1 
-   ```
-   Befehl -t rsa
-   ```
+  **AWS Command Line Interface Konfigurieren**
+  
+  > `$ aws configure`
 
-![BeispielImg](images/beispiel.jpg)
+![CLI Config](00images/aws_configure.png)
+
+  **AWS Command Line Interface testen**
+  
+  > `$ aws iam list-users`
+
+## AWS Cloud Formation
+- Benutze das CMD um in deinen Project Ordner zu wechseln in welchem das yaml file liegt.
+
+
+ **Führe folgenden Befehl aus:**
+  
+  > `$ aws cloudformation create-stack --stack-name ec2-example --template-body file://ec2.yaml --parameters ParameterKey=EnvironmentType,ParameterValue=dev ParameterKey=KeyPairName,ParameterValue=dam-auto`
+
+**You can Update the Stock by using the update-stack command **
+  
+  > `$ aws cloudformation update-stack --stack-name ec2-example --template-body file://ec2.yaml`
+
+
+**You can Delete the Stock**
+  
+  > `$ aws cloudformation delete-stack --stack-name ec2-example`
+
+**You can see the Stacks Process and Errors here**
+
+![CLI Version](00images/aws_stack.png)
+
+**Shows the new Stack**
+  
+  > `$ aws cloudformation describe-stacks`
 
 ---
 
-web: [`Weblnk`](https://www.linkl.com),
+web: [`yaml File`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html),
+web: [`yaml Template`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-sample-templates.html),
+web: [`Provisioning`](https://jennapederson.com/blog/2021/6/21/provisioning-an-ec2-instance-with-cloudformation-part-1/),
 ---
 
 > [⇧ **Zurück zur Hauptseite**](/README.md)
