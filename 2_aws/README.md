@@ -24,13 +24,13 @@ Identity and Access Management (IAM) ein User mit Admin rechten erstellen
   
   > `$ aws --version`
 
-![CLI Version](images/aws_cli.png)
+![CLI Version](00images/aws_cli.png)
 
   **AWS Command Line Interface Konfigurieren**
   
   > `$ aws configure`
 
-![CLI Config](images/aws_configure.png)
+![CLI Config](00images/aws_configure.png)
 
   **AWS Command Line Interface testen**
   
@@ -55,7 +55,7 @@ Identity and Access Management (IAM) ein User mit Admin rechten erstellen
 
 **You can see the Stacks Process and Errors here**
 
-![CLI Version](images/aws_stack.png)
+![CLI Version](00images/aws_stack.png)
 
 **Shows the new Stack**
   
