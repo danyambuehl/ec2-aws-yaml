@@ -24,7 +24,7 @@ Identity and Access Management (IAM) ein User mit Admin rechten erstellen
   
   > `$ aws --version`
 
-![CLI Version](00images/aws_cli.png)
+![CLI Version](../00images/aws_cli.png)
 
   **AWS Command Line Interface Konfigurieren**
   
