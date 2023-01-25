@@ -13,9 +13,10 @@ Das Ziel ist möglichst viel zu Automatisieren, vom Git Repository bis zum erste
     - **Git commit** Macht einen ersten Commit
     - **Log File** Erstellt ein Logfile mit Einträgen 
     - **Doku** Script ist ausführlich mit Kommentaren Dokumentiert
-- **AWS CloudFormation:** Beschriebung Ziel 
+- **AWS CloudFormation:** Ein YAML erstellen das Dynamisch ist 
     - **EC2** Erstellt ein EC2 Instance via IaaS
-    - **Web Server** Konfiguriert diesen als WebServer 
+    - **Recourcen** Erstellt der dazugehörenden Resourcen via IaaS
+- **Web Server** Konfiguriert diesen als WebServer 
     - **HTML File** Sync HTML File von Git Repo  
 
 ## Architektur Übersicht
