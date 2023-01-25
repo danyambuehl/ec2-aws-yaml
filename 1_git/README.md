@@ -37,7 +37,7 @@ Die Dokumentation des Scripts wurde direkt im Script mit Deteilierten Kommentart
 - Hier das Erstellte Script mit Kommentaren
 ```
 
-   #!/bin/bash
+#!/bin/bash
 
 username=$1
 repo_name=$2
@@ -57,6 +57,7 @@ cd $repo_name
 echo "Repo Folder erstellt"
 
 # Let you select if you want an template folder structure or not
+
 echo ""
 read -r -p "Do you want to add a user to add a Folder Structure? [y/n] " input
 case $input in
@@ -66,7 +67,7 @@ case $input in
 	[nN] )
 		echo "than, let's start with a clean sheet";;
 	* )
-		echo "Invalid input...";
+		echo "Invalid input...Just y or n ;Try again ";
         exit 1;;
 esac
 
