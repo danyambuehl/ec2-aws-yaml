@@ -30,22 +30,28 @@ Download und installiere die [`AWS CLI`](https://aws.amazon.com/cli/)
 # AWS Command Line Interface
 
   **AWS Command Line Interface Verbindung Konfigurieren**
-  Hier wird die Verbindung der AWS CLI zum erstellten User Access Key und Secret Acces Key hergestellt:
-  Die Region ausgewählt 
-  Und das Config File Format definiert.  
+
+Hier wird die Verbindung der AWS CLI zum erstellten User Access Key und Secret Acces Key hergestellt:
+Die Region ausgewählt 
+Und das Config File Format definiert.  
+
   > `$ aws configure`
 
 ![CLI Config](00_images/aws_configure.png)
 
   **AWS Command Line Interface testen**
-  Nun Sollte zumindest der erstelle User hier angezigt werden. 
+
+Nun Sollte zumindest der erstelle User hier angezigt werden.
+
   > `$ aws iam list-users`
 
 ## AWS Cloud Formation
+
 Benutze das CMD um in deinen Project Ordner zu wechseln in welchem das yaml file liegt.
 
 
  **Erstellen einer EC2 Instance mit Template ec2.yaml**
+
  Mit diesem Befehl können wir eine neue EC2 Instance wie im ec2.yaml konfiguriert ist erstellen. 
  Dabei wurde das yaml File so dynamisch erstellt das noch zusätliche Paramerter angegeben werden können/müssen.
  Dies führt dazu das dieses yaml Variabler genutzt werden kann von anderen Benutzern oder in anderen Umgebungen.
@@ -57,19 +63,23 @@ Benutze das CMD um in deinen Project Ordner zu wechseln in welchem das yaml file
   > `$ aws cloudformation create-stack --stack-name ec2-example --template-body file://ec2.yaml --parameters ParameterKey=EnvironmentType,ParameterValue=dev ParameterKey=KeyPairName,ParameterValue=dam-auto`
 
 **Zeigt den neuen Stack an**
+
 Hier wird der neue Stack angezeigt 
   
   > `$ aws cloudformation describe-stacks`
 ![CLI Version](00_images/aws_stack_status.png)
 
 **Auf die EC2 Instance verbinden**
+
 Nun wurde die yaml Datei so ergänzt, dass man unter OutputKey: PublicConnect direkt das benötigte SSH Kommando generiert wird, um sich auf der neuen Linux Maschine zu verbinden. 
 Dazu öffnet man z.B. eine GitBash Console, wechselt in das Verzeichnis wo das zuvor generierte Keyfile liegt (bei mir dam-auto.pem).
 Und braucht dann nur noch den Befehl in die Console zu kopieren.
+
 ![CLI Version](00_images/aws_ssh.png)
 
 
 **Mit dem Befehl update-stack Stock aktuallisieren**
+
 Mit dem Befehl update-stack kann man änderungen im yaml file machen und diese auf den bestehenden Stock zu aktualisieren*
   
   > `$ aws cloudformation update-stack --stack-name ec2-example --template-body file://ec2.yaml`
@@ -79,6 +89,7 @@ Mit dem Befehl update-stack kann man änderungen im yaml file machen und diese a
   > `$ aws cloudformation delete-stack --stack-name ec2-example`
 
 **Sie können den Stack Status und die Fehler hier sehen**
+
 Es ist auch möglich den erstellten Stock und Status in der AWS Console einzusehen. 
 
 ![CLI Version](00_images/aws_stack.png)
