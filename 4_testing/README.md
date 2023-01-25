@@ -27,7 +27,7 @@ Hier werden einige Scenarios getesten und kurz und knackig in einer Tabelle doku
 | `Git pull`| Neue Files werden heruntergeladen | wird gepulled | OK | 0 |
 | `echo`| Link für Repo zugriff funktioniert | Repo wird im Browser angezeigt | OK | 88 |
 
-# Testing Übersicht Git Lab Script
+# Testing Übersicht AWS Script
 
 | Beschreibung | Test Step | Erwartung | Status | Script Line |
 | ---     | ---   | ---     | ---   |  ---   |
