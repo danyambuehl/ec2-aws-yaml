@@ -67,6 +67,7 @@ Benutze das CMD um in deinen Project Ordner zu wechseln in welchem das yaml file
 Hier wird der neue Stack angezeigt 
   
   > `$ aws cloudformation describe-stacks`
+
 ![CLI Version](00_images/aws_stack_status.png)
 
 **Auf die EC2 Instance verbinden**
@@ -78,23 +79,23 @@ Und braucht dann nur noch den Befehl in die Console zu kopieren.
 ![CLI Version](00_images/aws_ssh.png)
 
 
-**Mit dem Befehl update-stack Stock aktuallisieren**
+**Mit dem Befehl update-stack aktuallisieren**
 
 Mit dem Befehl update-stack kann man änderungen im yaml file machen und diese auf den bestehenden Stock zu aktualisieren*
   
   > `$ aws cloudformation update-stack --stack-name ec2-example --template-body file://ec2.yaml`
 
-**Den Stock wieder löschen**
+**Stock wieder löschen**
   
   > `$ aws cloudformation delete-stack --stack-name ec2-example`
 
-**Sie können den Stack Status und die Fehler hier sehen**
+**Mann kann den Stack Status und die Fehler hier sehen**
 
 Es ist auch möglich den erstellten Stock und Status in der AWS Console einzusehen. 
 
 ![CLI Version](00_images/aws_stack.png)
 
-# Das YAML File wurde sehr Deteiliert mit Komentaren versehen so das dies Selbsterklärend ist. 
+# Die YAML-Datei wurde selbsterklärend mit Kommentaren versehen. 
 
 - Hier das Erstellte Script mit Kommentaren
 ```
@@ -178,16 +179,15 @@ Outputs:
     Description: "Shows the exact commend to connect to the newly deployed EC2 Instance"
     Value: !Join ["", [ssh -i , " " ,  !Ref KeyPairName,.pem ubuntu@,  !GetAtt WebAppInstance.PublicDnsName]]   # The Fn::GetAtt function will get the PublicDNSName Parameter from the newly installed WebAppInstance EC2 Instance
 
-
-
-
-
 ```
 ---
 
 web: [`yaml File`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/gettingstarted.templatebasics.html),
+
 web: [`yaml Template`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-sample-templates.html),
-web: [`Provisioning`](https://jennapederson.com/blog/2021/6/21/provisioning-an-ec2-instance-with-cloudformation-part-1/),
+
+web: [`Provisioning`](https://jennapederson.com/blog/2021/6/21/provisioning-an-ec2-instance-with-cloudformation-part-1),
+
 ---
 
 > [⇧ **Zurück zur Hauptseite**](/README.md)
