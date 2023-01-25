@@ -14,10 +14,10 @@ Hier werden einige Zenarien getesten und kurz und knackig in einer Tabelle dokum
 
 ![BeispielImg](images/beispiel.jpg)
 
-| Überschrift1 | Überschrift2 |
-| ---     | ---   |
-| `Befehl`| Beschreibung |
-| `Bfehel2`| Beschreibung2 |
+| Überschrift1 | Überschrift2 | Überschrift1 | Überschrift2 |
+| ---     | ---   | ---     | ---   |
+| `Befehl`| Beschreibung | `Befehl`| Beschreibung |
+| `Bfehel2`| Beschreibung2 | `Bfehel2`| Beschreibung2 |
 
 ---
 
