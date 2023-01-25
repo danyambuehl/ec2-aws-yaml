@@ -48,9 +48,6 @@ Hier werden einige Scenarios getesten und kurz und knackig in einer Tabelle doku
 
 ---
 
-web: [`Weblnk`](https://www.linkl.com),
----
-
 > [⇧ **Zurück zur Hauptseite**](/README.md)
 
 ---
