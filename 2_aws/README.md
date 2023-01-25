@@ -7,23 +7,19 @@ Ziel ist es mit AWS CLI und AWS Cloud Formation eine EC2 Instance mit allem was 
 
 # Voraussetzung
 
-**Identity and Access Management (IAM) ein User mit Admin rechten erstellen**
+** Identity and Access Management (IAM) ein User mit Admin rechten erstellen **
  
- Gehe zu Webconsole des IAM, wähle Users und erstelle einen neuen User mit AdministratorAccess.
- 
- Unter "Security Credentionals" clicke auf den Button "Create access key"
+ - Gehe zu Webconsole des IAM, wähle Users und erstelle einen neuen User mit AdministratorAccess.
+ - Unter "Security Credentionals" clicke auf den Button "Create access key"
+ - Wähle Command Line Interface(CLI) aus, bestätige die Empfehlungen und erstelle einen neuen Access Key. 
+ - Speichere den Access Key und den Secret Access Key bei dir Lokal ab.
 
- Wähle Command Line Interface(CLI) aus, bestätige die Empfehlungen und erstelle einen neuen Access Key. 
+** AWS Command Line Interface download and install **
 
- Speichere den Access Key und den Secret Access Key bei dir Lokal ab.
-
-**AWS Command Line Interface download and install **
-
-Download und installiere die [`AWS CLI`](https://aws.amazon.com/cli/),
+Download und installiere die [`AWS CLI`](https://aws.amazon.com/cli/)
 
  CMD Öffnen und Version überprüfen
-  
-  > `$ aws --version`
+  `$ aws --version`
 
 ![CLI Version](../00_images/aws_cli.png)
 
