@@ -31,7 +31,6 @@ Hier werden einige Scenarios getesten und kurz und knackig in einer Tabelle doku
 
 | Beschreibung | Test Step | Erwartung | Status | Script Line |
 | ---     | ---   | ---     | ---   |  ---   |
-
 | `EnviromentType`| Script ohne EnvironmenType ausführen | t2.nano Instance | OK | 11 |
 | `EnviromentType`| Script mit EnvironmenType test ausführen | t2.micro Instance | OK | 29 |
 | `EnviromentType`| Script mit EnvironmenType dev ausführen | t2.nano Instance | OK | 24 |
