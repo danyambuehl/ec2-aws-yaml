@@ -130,6 +130,18 @@ echo "The created repo is available at following link:"
 echo "https://gitlab.com/$username/$repo_name"
   
 ```
+
+## Gitlab Repository wieder löschen 
+Das Remote Repository kann wie folgt wieder gelöscht werden:
+ - Das zu löschende Projekt öffnen
+ - Einstellungen (in der linken Seitenleiste)
+ - Allgemein
+ - Erweiterte Einstellungen (Klicken Sie auf Erweitern)
+ - Projekt entfernen (Unten auf der Seite)
+ - Bestätigen (Durch Eingabe des Projektnamens und Drücken der Schaltfläche Bestätigen)
+
+ Um das Repository lokal zu löschen kann mann einfach den Lokalen Ordner im entfernen.
+
 Teilquelle: https://github.com/volym3ad/gitlab-repo-create
 ---
 
