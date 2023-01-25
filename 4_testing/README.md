@@ -7,17 +7,10 @@ Hier werden einige Zenarien getesten und kurz und knackig in einer Tabelle dokum
 
 # Testing Übersicht Git Lab Script
 
-| Beschreibung | Test Step | Erwartung | Status |
-| ---     | ---   | | ---     | ---   |
-| `Script Fehlerbehebung Überprüfen`| Script ohne Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt | OK | 
-| `Script Fehlerbehebung Überprüfen`| Script mit einem Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt | OK | 
-
-![BeispielImg](images/beispiel.jpg)
-
-| Beschreibung | Test Step | Erwartung | Status |
-| ---     | ---   | ---     | ---   |
-| `Script Fehlerbehebung Überprüfen`| Script ohne Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK |
-| `Script Fehlerbehebung Überprüfen`| Script mit einem Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK |
+| Beschreibung | Test Step | Erwartung | Status | Script Line |
+| ---     | ---   | ---     | ---   |  ---   |
+| `Fehlermanagement`| Script ohne Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK | 7 |
+| `Fehlermanagement`| Script mit einem Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK | 7 |
 
 ---
 
