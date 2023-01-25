@@ -16,10 +16,10 @@ Das Ziel ist es ein Script zu erstellen das folgende Punkte abdeckt:
 
 ## Voraussetzungen 
 
-•	To push with SSH, you must have an SSH key that is added to your GitLab account.
-•	You must have permission to add new projects to a namespace. To check if you have permission:
-1.	On the top bar, select Main menu > Groups and find your group.
-2.	Confirm that New project is visible in the upper right corner. Contact your GitLab administrator if you require permission.
+Um mit SSH pushen zu können, benötigen Sie einen SSH-Schlüssel, der zu Ihrem GitLab-Konto hinzugefügt wurde.
+Überprüfe ob Sie die nötigen Berechtigungen haben:
+1.	Wählen Sie in der oberen Leiste Hauptmenü > Gruppen und suchen Sie Ihre Gruppe.
+2.	Vergewissern Sie sich, dass die Option Neues Projekt in der oberen rechten Ecke angezeigt wird
 
 
 ## Vorgehen 
@@ -29,7 +29,8 @@ Man startet Git Bash und startet das Script mit `./git_remote.sh {GitlabBenutzer
 ```
 ./git_remote.sh daniel.ambuehl lazyaws
 ```  
-Es wird ein neuer Ordner mit dem ProjectNamen erstellt im Verzeichnis wo das Script ausgeführt wurde, der rest sollte selbserklärend sein.
+Es wird ein neuer Ordner mit dem ProjectNamen erstellt im Verzeichnis wo das Script ausgeführt wurde.
+Die Dokumentation des Scripts wurde direkt im Script mit Deteilierten Kommentarten gemacht:
 
 ## git_remote.sh Script
 
@@ -56,7 +57,6 @@ cd $repo_name
 echo "Repo Folder erstellt"
 
 # Let you select if you want an template folder structure or not
-
 echo ""
 read -r -p "Do you want to add a user to add a Folder Structure? [y/n] " input
 case $input in
