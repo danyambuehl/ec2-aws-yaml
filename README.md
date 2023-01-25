@@ -49,14 +49,17 @@ Ich konnte an meiner Schäche arbeiten und ein Skript erstellen. Das wird mir au
 Ich war erstaunt, wie schnell ich mich in die Thematik der YAML-Datei einarbeiten konnte und wie viel sie mit einigen Grundlagen der Programmierung zu tun hat. Allerdings können Kleinigkeiten sehr schnell viel Zeit in Anspruch nehmen. Wie z.B. einen Output String zu erstellen, um direkt eine SSH Verbindung zum Rechner zu ermöglichen.
 
 **Wie könnte man den Service noch verbessern?**
+
 Manchmal musste ich einige Ideen verwerfen, weil ich auf keinen grünen Zweig gekommen bin, wie z.B. die Überprüfung der existierenden Sicherheitsgruppen. Im Moment ist es nicht möglich, eine zweite Instanz mit der Yaml-Datei zu erstellen, da die Sicherheitsgruppe, die erstellt werden soll, bereits existiert. Dies ist sicherlich ein Punkt, der verbessert werden kann.
 
 **Was hat nicht geklappt?**
+
 Um einen Service, z.B. Web, in die Instanz einzubauen, fehlte mir leider die Zeit. 
 Ich denke aber, dass dies kein großer Aufwand mehr ist. Der größte Teil des Codes kann von bereits erstellten Projekten übernommen werden. 
 Werde das sicherlich noch nachholen.
 
 **Was ist mir aufgefallen?**
+
 Die Nachbearbeitung der Dokumentation hat mich sehr viel Zeit gekostet. 
 Es gibt doch eine Reihe von Punkten, die bei der Durchführung des Projektes vergessen worden sind oder die nicht ausführlich genug dokumentiert worden sind. Und die dann, wenn sie nochmals durchgespielt werden,mit viel Zeitaufwand ergänzt werden müssen, so dass alles nachvollziehbar ist.
 
