@@ -1,37 +1,13 @@
-Titel
+Webserver
 ====
 
 # Ziel
 
-Beschreibung des Ziel
+Ziel ist es einen Webserver laufen zu haben der seine HTML file von einem Gitlab bezieht.
+Dieser wird natürlich auch direkt in dieser Configuration über CloudFormation installiert. 
 
-# Übersicht Tabelle 
 
-| Überschrift1 | Überschrift2 |
-| ---     | ---   |
-| `Befehl`| Beschreibung |
-| `Bfehel2`| Beschreibung2 |
-
-## Titel2
-  
-  **Auflistung und smile :+1:**
-  
-  > `$ Befehl`
-
-## Titel1
-- Beschreibung
-
-- Beschreibung 1 
-   ```
-   Befehl -t rsa
-   ```
-
-![BeispielImg](images/beispiel.jpg)
-
----
-
-web: [`Weblnk`](https://www.linkl.com),
----
+**Leider bin ich Zeilich nicht mehr dazugekommen diesen Teil zu erstellen und dokumentieren.**
 
 > [⇧ **Zurück zur Hauptseite**](/README.md)
 
