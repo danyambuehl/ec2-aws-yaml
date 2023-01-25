@@ -9,15 +9,15 @@ Hier werden einige Zenarien getesten und kurz und knackig in einer Tabelle dokum
 
 | Beschreibung | Test Step | Erwartung | Status |
 | ---     | ---   | | ---     | ---   |
-| `Script Fehlerbehebung Überprüfen`| Script ohne Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt | OK| 
-| `Script Fehlerbehebung Überprüfen`| Script mit einem Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt | OK| 
+| `Script Fehlerbehebung Überprüfen`| Script ohne Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt | OK | 
+| `Script Fehlerbehebung Überprüfen`| Script mit einem Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt | OK | 
 
 ![BeispielImg](images/beispiel.jpg)
 
-| Überschrift1 | Überschrift2 | Überschrift1 | Überschrift2 |
+| Beschreibung | Test Step | Erwartung | Status |
 | ---     | ---   | ---     | ---   |
-| `Befehl`| Beschreibung | `Befehl`| Beschreibung |
-| `Bfehel2`| Beschreibung2 | `Bfehel2`| Beschreibung2 |
+| `Script Fehlerbehebung Überprüfen`| Script ohne Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK |
+| `Script Fehlerbehebung Überprüfen`| Script mit einem Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK |
 
 ---
 
