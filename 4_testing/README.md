@@ -3,7 +3,7 @@ Testing
 
 # Ziel
 
-Hier werden einige Zenarien getesten und kurz und knackig in einer Tabelle dokumentiert.
+Hier werden einige Scenarios getesten und kurz und knackig in einer Tabelle dokumentiert.
 
 # Testing Übersicht Git Lab Script
 
