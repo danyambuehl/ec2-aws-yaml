@@ -27,6 +27,16 @@ Hier werden einige Scenarios getesten und kurz und knackig in einer Tabelle doku
 | `Git pull`| Neue Files werden heruntergeladen | wird gepulled | OK | 0 |
 | `echo`| Link für Repo zugriff funktioniert | Repo wird im Browser angezeigt | OK | 88 |
 
+# Testing Übersicht Git Lab Script
+
+| Beschreibung | Test Step | Erwartung | Status | Script Line |
+| ---     | ---   | ---     | ---   |  ---   |
+| `Fehlermanagement`| Script ohne Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK | 7 |
+| `Fehlermanagement`| Script mit einem Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK | 7 |
+| `Fehlermanagement`| Script ohne Argumente Ausführen | Warnhinweis mindestens zwei Argumente benötigt| OK | 7 |
+| `Fehlermanagement`| ohne Verbindung zum Internet ausführen | Exit mit Fehler | Fail | 42 |
+| `Fehlermanagement`| ohne Verbindung zum Internet ausführen | Log wird geschriben | OK | 52,79,81 - 85 |
+
 ---
 
 web: [`Weblnk`](https://www.linkl.com),
