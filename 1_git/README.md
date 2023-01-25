@@ -3,6 +3,8 @@ Git Script
 
 # Git Repository per Script erstellen
 
+Da ich noch nie ein eigenes Script geschrieben habe habe ich mir als erste Aufgabe vorgenommen ein kleines Scipt zu schreiben dass einige Basic Programierfunktionen beinhalten wie z.b : if Loops, else if, cut , agumente , read .
+
 Das Ziel ist es ein Script zu erstellen das folgende Punkte abdeckt:
  - Ein Scirpt erstellen das Automatisch ein Git Repository erstellt 
  - Falls gewünscht wird eine Template Strucktur erstellt
