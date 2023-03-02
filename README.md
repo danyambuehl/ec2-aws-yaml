@@ -1,6 +1,4 @@
-![M300-Banner](00_images/banner.png)
-
-# IaaS (Infrastructure as a Service)
+# Ec2 deployment with Cloud Formation -IaaS (Infrastructure as a Service)-
 
 Das Ziel ist möglichst viel zu Automatisieren, vom Git Repository bis zum erstellen eines einfache Webserver mit AWS CloudFormation.
 
