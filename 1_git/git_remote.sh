@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Befehl Example IN GitBash ausgeführt 1 Variable = Gitlab name | 2 Variable = Neue Repo Name
+# ./git_remote.sh daniel.ambuehl lazyaws
+
 username=$1
 repo_name=$2
 logoutput=./git.log
