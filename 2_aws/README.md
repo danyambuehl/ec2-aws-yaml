@@ -24,7 +24,7 @@ Ziel ist es mit AWS CLI und AWS Cloud Formation eine EC2 Instance mit allem was 
 Download und installiere die [`AWS CLI`](https://aws.amazon.com/cli/)
 
  Windows CMD Öffnen und Version überprüfen
-![CLI Version](../00_images/aws_cli.png)
+![CLI Version](/00_images/aws_cli.png)
 
 
 # AWS Command Line Interface
@@ -37,7 +37,7 @@ Und das Config File Format definiert.
 
   > `$ aws configure`
 
-![CLI Config](00_images/aws_configure.png)
+![CLI Config](/00_images/aws_configure.png)
 
   **AWS Command Line Interface testen**
 
@@ -68,7 +68,7 @@ Hier wird der neue Stack angezeigt
   
   > `$ aws cloudformation describe-stacks`
 
-![CLI Version](00_images/aws_stack_status.png)
+![CLI Version](/00_images/aws_stack_status.png)
 
 **Auf die EC2 Instance verbinden**
 
@@ -76,7 +76,7 @@ Nun wurde die yaml Datei so ergänzt, dass man unter OutputKey: PublicConnect di
 Dazu öffnet man z.B. eine GitBash Console, wechselt in das Verzeichnis wo das zuvor generierte Keyfile liegt (bei mir dam-auto.pem).
 Und braucht dann nur noch den Befehl in die Console zu kopieren.
 
-![CLI Version](00_images/aws_ssh.png)
+![CLI Version](/00_images/aws_ssh.png)
 
 
 **Mit dem Befehl update-stack aktuallisieren**
@@ -93,7 +93,7 @@ Mit dem Befehl update-stack kann man änderungen im yaml file machen und diese a
 
 Es ist auch möglich den erstellten Stock und Status in der AWS Console einzusehen. 
 
-![CLI Version](00_images/aws_stack.png)
+![CLI Version](/00_images/aws_stack.png)
 
 # Die YAML-Datei wurde selbsterklärend mit Kommentaren versehen. 
 
